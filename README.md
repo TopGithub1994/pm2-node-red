@@ -34,7 +34,7 @@ npm install pm2-windows-startup -g
 pm2-startup install
 ~~~
   
-ตอนนี้ PM2 ของเรามีรายการ process ที่ต้องการให้ทำงานตอนเริ่มเปิดเครื่องแล้ว คือ process ของ Node-RED ที่ชื่อ red ทำงานอยู่ ให้เรา Svae รายการ process นี้ใว้ด้วยคำสั่ง pm2 save
+ตอนนี้ PM2 ของเรามีรายการ process ที่ต้องการให้ทำงานตอนเริ่มเปิดเครื่องแล้ว คือ process ของ Node-RED ที่ชื่อ red ทำงานอยู่ ให้เรา Save รายการ process นี้ใว้ด้วยคำสั่ง pm2 save
 pm2 save
 
 ~~~
