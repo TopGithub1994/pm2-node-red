@@ -22,6 +22,10 @@ Start Process Node-RED ด้วย PM2
 pm2 start C:\Users\<User>\AppData\Roaming\npm\node_modules\node-red\red.js
 ~~~
 
+~~~
+pm2 start app.js -n newname
+~~~
+
 สั่ง run Node-RED ผ่าน PM2 โดยแก้คำสั่ง <User> เป็นชื่อ User ของเครื่องที่ใช้งาน
 จะเห็นว่าตอนนี้มี process ที่ชื่อ red กำลัง online อยู่
 ติดตั้ง Node สำหรับใช้ในการสั่งให้ PM2 auto start
