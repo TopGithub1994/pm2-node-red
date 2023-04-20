@@ -21,6 +21,9 @@ Start Process Node-RED ด้วย PM2
 ~~~
 pm2 start C:\Users\<User>\AppData\Roaming\npm\node_modules\node-red\red.js
 ~~~
+~~~
+pm2 start C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-red\red.js
+~~~
 
 ~~~
 pm2 start app.js -n newname
